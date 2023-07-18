@@ -1,0 +1,73 @@
+/* work sans font form goole fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style */
+header {
+    padding: 10px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+#G-color {
+    color: #F948B2;
+}
+
+#amer-color {
+    color: #0B0223;
+}
+
+/* banner style */
+.banner {
+    display: flex;
+
+}
+.banner-content{
+    background-image: url(../images/Group14.png);
+    margin-left: 0px;
+}
+.banner-content li {
+    list-style: none;
+}
+.btn{
+    color: white;
+    background-color: #F948B2;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+.btn-1{
+    color: white;
+    background-color: #4EC5F7;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
