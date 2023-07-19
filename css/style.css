@@ -50,24 +50,97 @@ nav li a {
     display: flex;
 
 }
-.banner-content{
+
+.banner-content {
     background-image: url(../images/Group14.png);
     margin-left: 0px;
 }
+
 .banner-content li {
     list-style: none;
 }
-.btn{
+
+.banner-content button a {
+    text-decoration: none;
+}
+
+.btn {
     color: white;
     background-color: #F948B2;
     border: none;
     border-radius: 40px;
     padding: 10px 20px;
 }
-.btn-1{
+
+.btn-1 {
     color: white;
     background-color: #4EC5F7;
     border: none;
     border-radius: 40px;
     padding: 10px 20px;
+}
+
+
+/* footer section */
+footer {
+    background: #0B0223;
+}
+
+footer ul {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 200px;
+    margin-top: -30px;
+    padding: -20px 240px;
+}
+
+footer li {
+    list-style: none;
+}
+
+#amer-color-footer {
+    color: white;
+}
+
+.footer-game-icon {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.icon {
+    background: #0B0223;
+    text-align: center;
+    justify-content: space-around;
+    margin: 30px 50px;
+
+}
+
+footer .icon button>a {
+    height: 15px;
+    width: 5px;
+    margin: 10px 10px;
+}
+
+.a {
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#second-ul {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 10px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 50px 350px;
+}
+.footer-copy{
+    
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 100px;
 }
