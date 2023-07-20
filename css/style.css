@@ -387,6 +387,12 @@ main .right-side-img .ghora {
     border-radius: 30px;
     border: 3px solid tomato;
 }
+.icon-column-1 .icon-name p:hover{
+    color: tomato;
+}
+.icon-column-2 .icon-name p:hover{
+    color: tomato;
+}
 
 .icon-column-2{
     display: flex;
