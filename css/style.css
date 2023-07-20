@@ -353,6 +353,58 @@ main .right-side-img .ghora {
 }
 
 
+/* hover icon part */
+
+.icon-part{
+    padding: 10px 200px;
+}
+
+.icon-column-1{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+.icon-column-1 .icon-name .icon-img{
+    cursor: pointer;
+}
+.icon-column-2 .icon-name .icon-img{
+    cursor: pointer;
+}
+
+
+.icon-column-1 .icon-name .icon-img:hover{
+    opacity: 1;
+}
+.icon-column-2 .icon-name .icon-img:hover{
+    opacity: 1;
+}
+.icon-column-2 .icon-name:hover{
+    border-radius: 30px;
+    border: 3px solid tomato;
+}
+
+.icon-column-1 .icon-name:hover{
+    border-radius: 30px;
+    border: 3px solid tomato;
+}
+
+.icon-column-2{
+    display: flex;
+    padding-top: 30px;
+    margin-left: 60px;
+    gap: 40px;
+    text-align: center;
+}
+
+main .icon-part .icon-name{
+    display: flex;
+    align-items: center;
+}
+.icon-img{
+    height: 30px;
+    width: 30px;
+    
+}
 
 
 
@@ -369,6 +421,10 @@ footer ul {
     margin: 0 200px;
     margin-top: -30px;
     padding: -20px 240px;
+}
+footer ul  li a{
+    text-decoration: none;
+    color: white;
 }
 
 footer li {
@@ -394,7 +450,7 @@ footer li {
 
 }
 
-footer .icon button>a {
+footer .icon button a {
     height: 15px;
     width: 5px;
     margin: 10px 10px;
