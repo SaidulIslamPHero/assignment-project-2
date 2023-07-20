@@ -390,6 +390,13 @@ main .right-side-img .ghora {
 .icon-column-1 .icon-name p:hover{
     color: tomato;
 }
+.icon-column-1 p{
+    cursor: pointer;
+}
+.icon-column-2 p{
+    cursor: pointer;
+}
+
 .icon-column-2 .icon-name p:hover{
     color: tomato;
 }
